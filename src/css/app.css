@@ -1,0 +1,25 @@
+@import '~normalize.css/normalize.css';
+@import './clients.css';
+@import './masonry.css';
+@import './preview.css';
+@import './imageBox.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 50px;
+    font-family: 'Neue Machina Light'
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 0px;
+    }
+}

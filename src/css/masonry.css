@@ -1,0 +1,20 @@
+.masonry-gutter-sizer {
+    width: 2%;
+}
+.masonry-grid-sizer,
+.masonry-grid-item {
+    width: 32%;
+}
+.masonry-grid-item {
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+    .masonry-gutter-sizer {
+        width: 0%;
+    }
+    .masonry-grid-sizer,
+    .masonry-grid-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clients .masonry-grid-sizer,
+.clients .masonry-gutter-sizer {
+    display: none;
+}
+.clients div {
+    position: relative;
+    width: 16.666%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients div::before {
+    content: "";
+    padding-bottom: 50%;
+    display: block;
+}
+.clients img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .clients {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 0.5rem;
+    }
+
+    .clients {
+        margin: 25px;
+    }
+
+    .clients div {
+        width: 100%;
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .clients div::before {
+        padding-bottom: 50%;
+    }
+    
+    .clients img {
+        max-width: 100%;
+        transform: scale(0.666);
+    }
+}
