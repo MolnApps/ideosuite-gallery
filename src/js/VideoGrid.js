@@ -2,7 +2,7 @@ class VideoGrid {
     constructor(selector) {
         this.selector = selector
 
-        this.videoHtml = `<video autoplay loop muted playsinline controls="false" class="picture">
+        this.videoHtml = `<video autoplay loop muted playsinline controls="true" class="picture">
             <source src="{src}" type="video/mp4">
         </video>`
         this.videoEvery = 2

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "npx mix --production",
     "serve": "browser-sync start --server docs --files \"src/\"",
     "watch": "npx mix watch",
     "test": "echo \"Error: no test specified\" && exit 1"
