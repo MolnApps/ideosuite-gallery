@@ -1,5 +1,5 @@
 import Hydrator from "./Hydrator.js"
-import clients from './../clients.js'
+import clients from '../../../data/clients.js'
 
 class ClientLogoSizeHydrator extends Hydrator
 {
