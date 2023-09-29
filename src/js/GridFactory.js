@@ -1,7 +1,10 @@
 class GridFactory
 {
     constructor(selector) {
-        this.gridSizerMarkup = '<div class="masonry-grid-sizer"></div><div class="masonry-gutter-sizer"></div>'
+        this.gridSizerMarkup = `
+            <div class="masonry-grid-sizer"></div>
+            <div class="masonry-gutter-sizer"></div>
+        `
         this.selector = selector ? selector : '[data-js="grid"]'
         this.hydrators = []
     }

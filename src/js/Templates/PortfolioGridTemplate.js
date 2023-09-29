@@ -6,7 +6,7 @@ import PreviewsHydrator from '../Hydrators/PreviewsHydrator'
 import ProjectHtmlHydrator from '../Hydrators/ProjectHtmlHydrator'
 import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator'
 
-class PortfolioGrid
+class PortfolioGridTemplate
 {
     constructor(formats) {
         this.hydrators = [
@@ -26,4 +26,4 @@ class PortfolioGrid
     }
 }
 
-export default PortfolioGrid
+export default PortfolioGridTemplate

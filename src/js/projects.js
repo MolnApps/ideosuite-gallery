@@ -14,13 +14,13 @@ const projects = [
         client: 'gianvito-rossi',
         previews: [
             {
-                src: 'images/gianvito-rossi-chinese-st-valentines/05.jpg',
+                src: 'images/gianvito-rossi-chinese-valentines-day/05.jpg',
             },
             {
-                src: 'images/gianvito-rossi-chinese-st-valentines/animated.mp4',
+                src: 'images/gianvito-rossi-chinese-valentines-day/animated.mp4',
             }
         ],
-        title: 'Chinese St. Valentine\'s Day',
+        title: 'Chinese Valentine\'s Day',
         description: 'Lorem ipsum dolor sit amet',
         url: '#'
     },

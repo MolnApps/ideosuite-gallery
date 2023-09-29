@@ -2,18 +2,18 @@ class VideoGrid {
     constructor(selector) {
         this.selector = selector
 
-        this.videoHtml = `<video autoplay loop muted playsinline controls="true" class="picture">
+        this.videoHtml = `<video autoplay loop muted playsinline controls="false" class="picture">
             <source src="{src}" type="video/mp4">
         </video>`
-        this.videoEvery = 2
+        this.videoFrequency = 2
         this.currentVideo = 0
     }
 
     attach() {
         var allItems = document.querySelectorAll(this.selector)
         
-        this.videoEvery = this.calculateVideoFrequency(allItems)
-        this.currentVideo = Math.floor(Math.random() * this.videoEvery)
+        this.videoFrequency = this.calculateVideoFrequency(allItems)
+        this.currentVideo = Math.floor(Math.random() * this.videoFrequency)
 
         allItems.forEach((item) => {
             if (this.hasAnimatedPreview(item) && this.shouldActivateVideo()) {
@@ -47,7 +47,7 @@ class VideoGrid {
     tallyCurrentVideo() {
         this.currentVideo++
         
-        if (this.currentVideo >= this.videoEvery) {
+        if (this.currentVideo >= this.videoFrequency) {
             this.currentVideo = 0
         }
     }

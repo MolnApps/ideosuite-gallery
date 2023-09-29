@@ -2,7 +2,7 @@ import ClientLogoHtmlHydrator from "../Hydrators/ClientLogoHtmlHydrator"
 import ClientLogoSizeHydrator from "../Hydrators/ClientLogoSizeHydrator"
 import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator'
 
-class ClientsGrid
+class ClientsGridTemplate
 {
     constructor() {
         this.hydrators = [
@@ -17,4 +17,4 @@ class ClientsGrid
     }
 }
 
-export default ClientsGrid
+export default ClientsGridTemplate

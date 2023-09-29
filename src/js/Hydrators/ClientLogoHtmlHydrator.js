@@ -21,7 +21,7 @@ class ClientLogoHtmlHydrator extends Hydrator
     }
 
     getHtml() {
-        return `<div class="logo">
+        return `<div class="image-box-animate logo">
             <img 
                 src="{client:logo:src}" 
                 alt="{client:title}" 
