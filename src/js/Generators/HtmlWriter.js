@@ -15,8 +15,8 @@ class HtmlWriter
     {
         var mixManifestData = this.getMixManifestDictionary(mixManifest)
 
-        dictionary['js:app'] = mixManifestData['/js/app.js']
-        dictionary['css:app'] = mixManifestData['/css/app.css']
+        dictionary['js:app'] = mixManifestData['/js/app.js'].replace(/^\//,"")
+        dictionary['css:app'] = mixManifestData['/css/app.css'].replace(/^\//,"")
 
         return dictionary
     }
