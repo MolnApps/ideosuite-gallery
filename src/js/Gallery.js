@@ -1,3 +1,4 @@
+import Masonry from 'masonry-layout/masonry.js'
 import VideoGrid from './VideoGrid'
 import ResizePreviews from './ResizePreviews'
 

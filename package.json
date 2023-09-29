@@ -13,5 +13,8 @@
   "devDependencies": {
     "laravel-mix": "^6.0.49",
     "normalize.css": "^8.0.1"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.2.2"
   }
 }
