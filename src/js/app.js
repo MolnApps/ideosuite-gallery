@@ -8,7 +8,7 @@ import projects from './projects'
 
 new GridFactory('[data-js="projects"]').make(
     projects, 
-    new PortfolioGridTemplate(['square', 'portrait'])
+    new PortfolioGridTemplate()
 )
 
 new GridFactory('[data-js="clients"]').make(
@@ -23,5 +23,9 @@ new Gallery({
         itemSelector: '.masonry-grid-item',
         columnWidth: '.masonry-grid-sizer',
         gutter: '.masonry-gutter-sizer',
+    },
+    previews: {
+        itemSelector: '[data-js="project-preview"]',
+        formats: ['square', 'portrait']
     }
 }).attach()

@@ -11,7 +11,7 @@ class ProjectHtmlHydrator extends Hydrator
     getHtml() {
         return `<div class="masonry-grid-item" data-js="project" data-js-previews="{previews:json}">
             <div class="image-box">
-                <div class="preview preview--{format}">
+                <div data-js="project-preview" class="preview preview--default">
                     <img src="{previews:static:src}" alt="" class="picture image-box-animate-slow">
                 </div>
                 <div class="image-box-info image-box-animate-slow">

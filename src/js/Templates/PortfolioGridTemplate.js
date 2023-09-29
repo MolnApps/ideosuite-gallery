@@ -8,10 +8,9 @@ import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator'
 
 class PortfolioGridTemplate
 {
-    constructor(formats) {
+    constructor() {
         this.hydrators = [
             new DefaultAttributesHydrator(),
-            new FormatHydrator(formats),
             new PreviewsHydrator(),
             new ClientLogoSizeHydrator(50 * 50),
             new ClientLogoHtmlHydrator('html:logo'),

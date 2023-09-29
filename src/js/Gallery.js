@@ -1,10 +1,12 @@
 import VideoGrid from './VideoGrid'
+import ResizePreviews from './ResizePreviews'
 
 class Gallery {
     constructor(options) {
         this.selector = options.selector
         this.itemSelector = options.itemSelector
         this.masonry = options.masonry
+        this.previews = options.previews
     }
 
     attach() {
@@ -13,6 +15,7 @@ class Gallery {
             this.activateVideoGrid()
         }
 
+        this.resizePreviews()
         this.activateMasonry()
     }
 
@@ -22,6 +25,10 @@ class Gallery {
 
     activateVideoGrid() {
         new VideoGrid(this.itemSelector).attach()
+    }
+
+    resizePreviews() {
+        new ResizePreviews(this.previews).attach()
     }
 
     activateMasonry() {
