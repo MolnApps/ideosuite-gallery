@@ -1,5 +1,5 @@
-import Hydrator from "./Hydrator"
-import ReplaceTokensHydrator from "./ReplaceTokensHydrator"
+import Hydrator from "./Hydrator.js"
+import ReplaceTokensHydrator from "./ReplaceTokensHydrator.js"
 
 class ClientLogoHtmlHydrator extends Hydrator
 {

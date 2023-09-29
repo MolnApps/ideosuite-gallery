@@ -1,10 +1,10 @@
-import DefaultAttributesHydrator from '../Hydrators/DefaultAttributesHydrator'
-import ClientLogoHtmlHydrator from '../Hydrators/ClientLogoHtmlHydrator'
-import ClientLogoSizeHydrator from '../Hydrators/ClientLogoSizeHydrator'
-import FormatHydrator from '../Hydrators/FormatHydrator'
-import PreviewsHydrator from '../Hydrators/PreviewsHydrator'
-import ProjectHtmlHydrator from '../Hydrators/ProjectHtmlHydrator'
-import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator'
+import DefaultAttributesHydrator from '../Hydrators/DefaultAttributesHydrator.js'
+import ClientLogoHtmlHydrator from '../Hydrators/ClientLogoHtmlHydrator.js'
+import ClientLogoSizeHydrator from '../Hydrators/ClientLogoSizeHydrator.js'
+import FormatHydrator from '../Hydrators/FormatHydrator.js'
+import PreviewsHydrator from '../Hydrators/PreviewsHydrator.js'
+import ProjectHtmlHydrator from '../Hydrators/ProjectHtmlHydrator.js'
+import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator.js'
 
 class PortfolioGridTemplate
 {

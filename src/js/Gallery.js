@@ -1,6 +1,6 @@
 import Masonry from 'masonry-layout/masonry.js'
-import VideoGrid from './VideoGrid'
-import ResizePreviews from './ResizePreviews'
+import VideoGrid from './VideoGrid.js'
+import ResizePreviews from './ResizePreviews.js'
 
 class Gallery {
     constructor(options) {

@@ -1,4 +1,4 @@
-import clients from './clients'
+import clients from './clients.js'
 
 const selectedClients = [
     'azimut-yachts',

@@ -10,11 +10,15 @@ class GridFactory
     }
 
     make(projects, template) {
+        document.querySelector(this.selector).innerHTML = this.html(projects, template)
+    }
+
+    html(projects, template) {
         this.hydrators = template.getHydrators()
         
         var items = this.hydrateAll(projects)
         
-        document.querySelector(this.selector).innerHTML = this.getMarkup(items)
+        return this.getMarkup(items)
     }
 
     hydrateAll(items) {

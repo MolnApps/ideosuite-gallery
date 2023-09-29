@@ -2,8 +2,9 @@
   "name": "ideosuite-gallery",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
-    "build": "npx mix --production",
+    "build": "npx mix --production; node publish.js",
     "serve": "browser-sync start --server docs --files \"src/\"",
     "watch": "npx mix watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "graceful-fs": "^4.2.11",
     "laravel-mix": "^6.0.49",
     "normalize.css": "^8.0.1"
   },

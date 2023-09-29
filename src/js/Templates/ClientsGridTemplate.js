@@ -1,6 +1,6 @@
-import ClientLogoHtmlHydrator from "../Hydrators/ClientLogoHtmlHydrator"
-import ClientLogoSizeHydrator from "../Hydrators/ClientLogoSizeHydrator"
-import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator'
+import ClientLogoHtmlHydrator from "../Hydrators/ClientLogoHtmlHydrator.js"
+import ClientLogoSizeHydrator from "../Hydrators/ClientLogoSizeHydrator.js"
+import ReplaceTokensHydrator from '../Hydrators/ReplaceTokensHydrator.js'
 
 class ClientsGridTemplate
 {

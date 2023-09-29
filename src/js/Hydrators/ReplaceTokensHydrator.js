@@ -1,4 +1,4 @@
-import Hydrator from "./Hydrator"
+import Hydrator from "./Hydrator.js"
 
 class ReplaceTokensHydrator extends Hydrator
 {

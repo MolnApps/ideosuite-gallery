@@ -1,4 +1,4 @@
-import FormatHydrator from './Hydrators/FormatHydrator'
+import FormatHydrator from './Hydrators/FormatHydrator.js'
 
 class ResizePreviews {
     constructor(options) {

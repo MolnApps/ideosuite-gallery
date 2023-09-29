@@ -1,20 +1,4 @@
-import GridFactory from './GridFactory'
-import PortfolioGridTemplate from './Templates/PortfolioGridTemplate'
-import ClientsGridTemplate from './Templates/ClientsGridTemplate'
-import Gallery from './Gallery'
-
-import selectedClients from './selectedClients'
-import projects from './projects'
-
-new GridFactory('[data-js="projects"]').make(
-    projects, 
-    new PortfolioGridTemplate()
-)
-
-new GridFactory('[data-js="clients"]').make(
-    selectedClients,
-    new ClientsGridTemplate()
-)
+import Gallery from './Gallery.js'
 
 new Gallery({
     selector: '[data-js="projects"]',

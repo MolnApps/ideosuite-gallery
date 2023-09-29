@@ -1,4 +1,4 @@
-import Hydrator from "./Hydrator"
+import Hydrator from "./Hydrator.js"
 
 class ProjectHtmlHydrator extends Hydrator
 {
