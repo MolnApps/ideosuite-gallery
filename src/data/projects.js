@@ -30,6 +30,9 @@ const projects = [
             {
                 src: 'images/moncler-the-loop/03.jpg',
             },
+            {
+                src: 'https://vimeo.com/883214419'
+            }
         ],
         title: 'The Loop',
         description: 'Lorem ipsum dolor sit amet',

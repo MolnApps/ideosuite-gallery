@@ -4,9 +4,11 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build": "npx mix --production; node publish.js",
+    "build": "npx mix --production; npm run generate:html",
+    "serve": "browser-sync start --server docs --files \"src/\"",
     "dev": "npm run watch",
     "watch": "npx mix watch",
+    "generate:html": "node publish.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
