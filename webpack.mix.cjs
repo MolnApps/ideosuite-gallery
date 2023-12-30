@@ -5,3 +5,7 @@ mix
     .css('./src/css/app.css', '/css')
     .js('./src/js/app.js', '/js')
     .setPublicPath('./docs')
+    .browserSync({
+        server: 'docs',
+        files: 'src/'
+    });

@@ -1,5 +1,7 @@
 class VideoGrid {
     constructor(selector) {
+        console.log('hello1')
+
         this.selector = selector
 
         this.videoHtml = `<video autoplay loop muted playsinline controls="false" class="picture">
