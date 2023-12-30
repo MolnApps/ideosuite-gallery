@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "npx mix --production; node publish.js",
-    "serve": "browser-sync start --server docs --files \"src/\"",
+    "dev": "npm run watch",
     "watch": "npx mix watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
