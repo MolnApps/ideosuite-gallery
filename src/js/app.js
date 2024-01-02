@@ -1,4 +1,4 @@
-import Gallery from './Gallery.js'
+import Gallery from 'folio-rich-gallery'
 
 new Gallery({
     selector: '[data-js="projects"]',
